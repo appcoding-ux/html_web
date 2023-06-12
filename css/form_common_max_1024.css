@@ -1,0 +1,64 @@
+@charset "utf-8";
+
+@media (max-width:1024px){
+        /*          헤더              */
+        header {width:100%; height:auto; position:absolute; left:0; top:0; z-index:3;}
+        #header-main > .small {width:100%; height:auto; margin:0 auto; display:flex; justify-content:space-between; }
+        #logo {width:100px; height:100px; margin:0 0 0 20px;}
+        #logo > img {width:100%; height:100%;}
+        .meunopen {width:40px; height:40px;}
+        .meunopen > .a {width:100%; height:100%;}
+        .a {display:block; cursor:pointer;}
+        #flex-nav {width:100%; height:100%; display:flex; flex-direction:column; padding:28px 25px; background-image: linear-gradient(to bottom, #fff, #c8ecf5);}
+        .nav-a {width:100%; height:auto;}
+        .nav-a > ul {display:flex; padding:20px 0 0 0; flex-direction:column;}
+        .nav-a > ul > li > a {text-decoration:none; color:#384052; font-size:11px; padding:10px; line-height:15px; font-weight:600; display:block;}
+        .nav-b {width:100%; height:420px; }
+        .nav-b > ul {display:flex; margin:30px 190px 0 0; flex-direction:column; }
+        .nav-b > ul > li > a {text-decoration:none; color:#291e66; font-size:16px; padding:14px; line-height:24px; font-weight:550; display:block;}
+        .nav-b > ul > li > a:hover {color: #faa42e;}
+        #flex-nav > button {border:0; border-radius:10px; padding:12px 35px; background-image:linear-gradient(to bottom, #facd2e, #faa42e); color:#fff; margin:-30px 0 0 0; cursor:pointer; font-weight:700; display:block; order:4; }
+        #flex-nav > button:hover {background-image: linear-gradient(to bottom, #efbc06, #ef8e06);}
+
+
+        
+/*                      FOOTER                        */
+        footer {width:100%; height:730px; margin:20px auto 0px; display:flex; flex-direction:column;
+        padding:24px 25px 40px 50px;}
+        .footer-logo {width:120px; height:120px;}
+        .footer-logo > img {width:100%; height:100%;}
+        
+        
+        .footer-nav {width:100%; height:60%; display:flex;}
+        .footer-nav > a {text-decoration:none;}
+
+        .footer-nav-left {width:50%; height:100%; display:flex; flex-direction:column;}
+
+        .footer-nav-left-a {width:50%; height:80%; display:flex; }
+        .footer-nav-left-a > ul {width:100%; height:80%; display:flex; flex-direction:column; justify-content:space-evenly;}
+        .footer-nav-left-a >  ul > li > a {color:#0e255a; font-size:16px; font-weight:600;}
+
+        .footer-nav-left-b {width:50%; height:80%; display:flex; margin:-50px 0 0 0;}
+        .footer-nav-left-b >  ul {width:100%; height:80%; display:flex; flex-direction:column; justify-content:space-evenly; margin:-10px 0 0 0;}
+        .footer-nav-left-b >  ul > li > a {color:#0e255a; font-size:16px; font-weight:600;}
+
+        .footer-nav-right {width:50%; height:100%; margin:0 -30px 0 0;}
+        .footer-nav-right > nav {width:100%; height:80%;}
+        .footer-nav-right > nav > ul {width:100%; height:100%; display:flex; flex-direction:column; justify-content:space-evenly;}
+        .footer-nav-right > nav > ul > li > a {font-size:14px; font-weight:500; color:rgba(14,37,90,.6);}
+
+        .footer-icon-box {width:90%; height:27%; display:flex; align-items:center; flex-direction:column; align-items:center;}
+        .footer-icon-box > button {padding:2% 49%; background-image:linear-gradient(to bottom, #facd2e, #faa42e); border:none; color:#fff; text-transform:uppercase; font-weight:600; font-size:16px; border-radius:10px; cursor:pointer; }
+        .footer-icon-box > button:hover {background-image: linear-gradient(to bottom, #efbc06, #ef8e06);}
+        .footer-icon {width:60%; height:25px; display:flex; justify-content:space-evenly; margin:40px auto 0px;}
+        .footer-icon-img {width:7%; height:80%; margin:0 20px 0 0;}
+        .footer-icon-img > a > img {width:100%; height:100%;}
+
+
+        /*                     FOOTER BOTTOM                  */
+        #footer-bottom {width:100%; height:41px; margin:0 auto; display:flex; justify-content:space-between; align-items:flex-start;}
+        .footer-bottom-left {width:440px; height:100%;  display:flex; justify-content:center; align-items:center;}
+        .footer-bottom-left > p {color:rgba(14,37,90,.5); font-size:13px;}
+        .footer-bottom-right {width:220px; height:100%; display:flex; justify-content:center; align-items:center;}
+        .footer-bottom-right > span {font-size:12px; color:rgba(14,37,90,.5); margin:0 30px 0 0; font-weight:600;}
+}

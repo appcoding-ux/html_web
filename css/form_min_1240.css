@@ -1,0 +1,80 @@
+@charset "utf-8";
+
+* {margin:0; box-sizing:border-box;}
+ul, li, ol {list-style:none; margin:0; padding:0;}
+#wrap {width:100%; height:auto; }
+
+
+
+/*             폼태그 메인             */
+#form {width:1240px; height:1300px; background-color:rgba(250, 240, 219, 0.97); margin:20px auto; border-radius:30px; overflow:hidden;}
+
+.form-top {width:100%; height:25%; display:flex; border-bottom:1px solid #ddd;}
+.form-top-text {width:60%; height:100%; display:flex; flex-direction:column; justify-content:center;}
+.form-top-text > h1 {font-size:40px; margin:0 0 20px 20px; color:#eb6527;}
+.form-top-text > p {font-size:20px; margin:0 0 0 20px; color:#666;}
+
+.form-top-img {width:40%; height:100%; background-image:url("../img/form/img.png"); background-size:contain; background-position:30% 50%; background-repeat:no-repeat;}
+
+
+
+.form-middle {width:100%; height:65%; border-bottom:1px solid #ddd;}
+
+.middle-text {width:100%; height:55%; }
+.middle-text > form {width:100%; height:100%; display:flex; align-items:center; justify-content:space-around;}
+
+.form-input {width:45%; height:80%; text-align:center;}
+.form-input > label {font-size:36px; color:#a0683e; font-family:'Times New Roman', Times, serif;}
+.form-input > textarea {width:100%; height:80%; border-radius:20px; margin:15px 0 0 0; border:1px solid #f0cdcd; font-size:18px; padding:10px; resize:none;  background-color:#fff; outline:none;}
+.form-input > textarea::placeholder {color:rgba(167, 141, 85, 0.97); font-family:none; font-size:18px; }
+
+
+.middle-input {width:100%; height:35%; display:flex; flex-direction:column; align-items:center;}
+.middle-input > form:first-child {width:80%; height:50%;  display:flex; justify-content:space-around; align-items:center;}
+.middle-input > form:first-child > input {width:45%; height:50%; border-radius:30px; background-color:#fff; padding:10px; outline:none; border:1px solid #aaa; font-size:17px; color:#413f3f;}
+.middle-input > form:first-child > input::placeholder {font-size:17px; color:#999;}
+
+
+.middle-input > form:last-child {width:80%; height:50%;  display:flex; justify-content:space-around; align-items:center;}
+.middle-input > form:last-child > input {width:45%; height:50%;  border-radius:30px; background-color:#fff; padding:10px; outline:none; border:1px solid #aaa; font-size:17px;}
+.middle-input > form:last-child > input::placeholder {font-size:17px; color:#999;}
+
+
+
+
+.starpoint_wrap{display:inline-block;}
+.starpoint_box{position:relative; background:url("../img/form/img1.png") 0 0 no-repeat; font-size:0; top:0; left:480px;}
+.starpoint_box .starpoint_bg{display:block;position:absolute;top:0;left:0;height:60px;background:url("../img/form/img1.png") 0 -62px no-repeat;pointer-events:none;}
+.starpoint_box .label_star{display:inline-block;width:30px;height:60px;box-sizing:border-box;}
+.starpoint_box .star_radio{opacity:0;width:0;height:0;position:absolute;}
+.starpoint_box .star_radio:nth-of-type(1):hover ~ .starpoint_bg,
+.starpoint_box .star_radio:nth-of-type(1):checked ~ .starpoint_bg{width:10%;}
+.starpoint_box .star_radio:nth-of-type(2):hover ~ .starpoint_bg,
+.starpoint_box .star_radio:nth-of-type(2):checked ~ .starpoint_bg{width:20%;}
+.starpoint_box .star_radio:nth-of-type(3):hover ~ .starpoint_bg,
+.starpoint_box .star_radio:nth-of-type(3):checked ~ .starpoint_bg{width:30%;}
+.starpoint_box .star_radio:nth-of-type(4):hover ~ .starpoint_bg,
+.starpoint_box .star_radio:nth-of-type(4):checked ~ .starpoint_bg{width:40%;}
+.starpoint_box .star_radio:nth-of-type(5):hover ~ .starpoint_bg,
+.starpoint_box .star_radio:nth-of-type(5):checked ~ .starpoint_bg{width:50%;}
+.starpoint_box .star_radio:nth-of-type(6):hover ~ .starpoint_bg,
+.starpoint_box .star_radio:nth-of-type(6):checked ~ .starpoint_bg{width:60%;}
+.starpoint_box .star_radio:nth-of-type(7):hover ~ .starpoint_bg,
+.starpoint_box .star_radio:nth-of-type(7):checked ~ .starpoint_bg{width:70%;}
+.starpoint_box .star_radio:nth-of-type(8):hover ~ .starpoint_bg,
+.starpoint_box .star_radio:nth-of-type(8):checked ~ .starpoint_bg{width:80%;}
+.starpoint_box .star_radio:nth-of-type(9):hover ~ .starpoint_bg,
+.starpoint_box .star_radio:nth-of-type(9):checked ~ .starpoint_bg{width:90%;}
+.starpoint_box .star_radio:nth-of-type(10):hover ~ .starpoint_bg,
+.starpoint_box .star_radio:nth-of-type(10):checked ~ .starpoint_bg{width:100%;}
+
+.blind{position:absolute;clip:rect(0 0 0 0);margin:-1px;width:1px;height: 1px;overflow:hidden;}
+
+
+
+
+
+.form-bottom {width:100%; height:10%; display:flex; align-items:center; justify-content:center;}
+.form-bottom > input {width:200px; height:60px; border:none; border-radius:5px; background-color:rgb(224, 188, 97); 
+cursor:pointer; font-size:24px; color:#fff;} 
+.form-bottom > input:hover {background-color:#d89b7f}
